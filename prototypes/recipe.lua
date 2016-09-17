@@ -1,0 +1,328 @@
+data:extend({
+ {
+    type = "recipe",
+    name = "water-to-alchemy-gold",
+    category = "advanced-crafting",
+    subgroup = "AlchemyB",
+    enabled = "false",
+    energy_required = 5,
+    ingredients ={{type="fluid", name="water", amount=10} },
+    results = {{"alchemy-gold",5}}
+  },
+ {
+    type = "recipe",
+    name = "water-to-more-alchemy-gold",
+    category = "chemistry",
+    subgroup = "AlchemyB",
+    enabled = "false",
+    energy_required = 10,
+    ingredients ={{type="fluid", name="water", amount=20} },
+    results = {{"alchemy-gold",20}}
+  },
+   {
+    type = "recipe",
+    name = "wood-to-alchemy-gold",
+    category = "chemistry",
+    subgroup = "AlchemyB",
+    enabled = "false",
+    energy_required = 5,
+    ingredients ={{type="item", name="raw-wood", amount=20} },
+    results = {{"alchemy-gold",40}}
+  },
+ {
+    type = "recipe",
+    name = "water-to-crude-oil",
+    category = "chemistry",
+    subgroup = "AlchemyA",
+    enabled = "false",
+    energy_required = 2,
+    ingredients = { {type=item,name="alchemy-gold",amount=5} , {type="fluid", name="water", amount=20}    },
+    results = {{type="fluid", name="crude-oil", amount=10}}
+  },
+ {
+    type = "recipe",
+    name = "water-to-heavy-oil",
+    category = "chemistry",
+    subgroup = "AlchemyA",
+    enabled = "false",
+    energy_required = 4 ,
+    ingredients = { {type=item,name="alchemy-gold",amount=5} , {type="fluid", name="water", amount=20}},
+    results = {{type="fluid",name="heavy-oil",amount=15}}
+  },
+ {
+    type = "recipe",
+    name = "water-to-light-oil",
+    category = "chemistry",
+    subgroup = "AlchemyA",
+    enabled = "false",
+    energy_required = 4 ,
+    ingredients = { {type=item,name="alchemy-gold",amount=5} , {type="fluid", name="water", amount=20}},
+    results = {{type="fluid",name="light-oil",amount=15}}
+  },
+ {
+    type = "recipe",
+    name = "water-to-lubricant",
+    category = "chemistry",
+    subgroup = "AlchemyA",
+    enabled = "false",
+    energy_required = 5,
+    ingredients = { {type=item,name="alchemy-gold",amount=5} , {type="fluid", name="water", amount=20}},
+    results = {{type="fluid",name="lubricant",amount=10}}
+  },
+ {
+    type = "recipe",
+    name = "water-to-petroleum-gas",
+    category = "chemistry",
+    subgroup = "AlchemyA",
+    enabled = "false",
+    energy_required = 8,
+    ingredients = { {type=item,name="alchemy-gold",amount=10} , {type="fluid", name="water", amount=20}},
+    results = {{type="fluid",name="petroleum-gas",amount=10}}
+  },
+ {
+    type = "recipe",
+    name = "water-to-sulfuric-acid",
+    category = "chemistry",
+    subgroup = "AlchemyA",
+    enabled = "false",
+    energy_required = 12,
+    ingredients = {{type=item,name="alchemy-gold",amount=15} , {type="fluid", name="water", amount=20}},
+    results = {{type="fluid",name="sulfuric-acid",amount=10}}
+  }
+  ,
+ {
+    type = "recipe",
+    name = "water-to-more-water",
+    category = "chemistry",
+    subgroup = "AlchemyA",
+    enabled = "false",
+    energy_required = 2,
+    ingredients ={ {type=item,name="alchemy-gold",amount=1} , {type="fluid", name="water", amount=10} },
+    results = {{type="fluid",name="water",amount=20}}
+  }
+  ,
+ {
+    type = "recipe",
+    name = "alchemy-gold-to-copper",
+    subgroup = "AlchemyB",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 2,
+    ingredients ={{"alchemy-gold",5}},
+    result = "copper-plate"
+  },
+ {
+    type = "recipe",
+    name = "alchemy-gold-to-iron",
+    subgroup = "AlchemyB",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 2,
+    ingredients ={{"alchemy-gold",5}},
+    result = "iron-plate"
+  },
+ {
+    type = "recipe",
+    name = "alchemy-gold-to-steel",
+    subgroup = "AlchemyB",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 4,
+    ingredients = {{"alchemy-gold",15}},
+    result = "steel-plate"
+  },
+ {
+    type = "recipe",
+    name = "alchemy-gold-to-plastic",
+    subgroup = "AlchemyB",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 4,
+    ingredients = {{"alchemy-gold",4}},
+    results = {{type="item",name="plastic-bar",amount=8}}
+  },
+ {
+    type = "recipe",
+    name = "alchemy-gold-to-brick",
+    subgroup = "AlchemyB",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 4,
+    ingredients = {{"alchemy-gold",5}},
+    results = {{type=item,name="stone-brick",amount=10}}
+  },
+ {
+    type = "recipe",
+    name = "alchemy-gold-to-battery",
+    subgroup = "AlchemyC",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 10,
+    ingredients = {{"alchemy-gold",50}},
+    result = "battery"
+  }   ,
+ { type = "recipe",
+    name = "alchemy-gold-to-electronic-circuit",
+    subgroup = "AlchemyC",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 5,
+    ingredients = {{"alchemy-gold",75}},
+    result = "electronic-circuit"
+  }
+  ,
+ { type = "recipe",
+    name = "alchemy-gold-to-advanced-circuit",
+    subgroup = "AlchemyC",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 15,
+    ingredients = {{"alchemy-gold",150}},
+    result = "advanced-circuit"
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-processing-unit",
+    subgroup = "AlchemyC",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 30,
+    ingredients = {{"alchemy-gold",200}},
+    result = "processing-unit"
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-science-pack-1",
+    subgroup = "AlchemyD",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 2,
+    ingredients = {{"alchemy-gold",10}},
+    result = "science-pack-1"
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-science-pack-2",
+    subgroup = "AlchemyD",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 5,
+    ingredients = {{"alchemy-gold",20}},
+    result = "science-pack-2"
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-science-pack-3",
+    subgroup = "AlchemyD",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 15,
+    ingredients = {{"alchemy-gold",30}},
+    result = "science-pack-3"
+  }  ,
+ { type = "recipe",
+    name = "alchemy-gold-to-alien-science-pack",
+    subgroup = "AlchemyD",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 25,
+    ingredients = {{"alchemy-gold",40}},
+    result = "alien-science-pack"
+  }
+  ,
+ { type = "recipe",
+    name = "alchemy-gold-to-alien-artifact",
+    subgroup = "AlchemyD",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 4,
+    ingredients = {{"alchemy-gold",10}},
+    result = "alien-artifact"
+  }
+ ,
+ 
+
+ { type = "recipe",
+    name = "alchemy-gold-to-speed-module",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 20,
+    ingredients = {{"alchemy-gold",50}},
+    results = {{name="speed-module",amount=1} }
+  } ,
+ { type = "recipe",
+    name = "alchemy-gold-to-speed-module-2",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 40,
+    ingredients = {{"alchemy-gold",200}},
+    results = {{name="speed-module-2",amount=1} }
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-speed-module-3",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 90,
+    ingredients = {{"alchemy-gold",800}},
+    results = {{name="speed-module-3",amount=1} }
+  },
+  
+
+ { type = "recipe",
+    name = "alchemy-gold-to-productivity-module",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 20,
+    ingredients = {{"alchemy-gold",50}},
+    results = {{name="productivity-module",amount=1} }
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-productivity-module-2",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 40,
+    ingredients = {{"alchemy-gold",200}},
+    results = {{name="productivity-module-2",amount=1} }
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-productivity-module-3",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 90,
+    ingredients = {{"alchemy-gold",800}},
+    results = {{name="productivity-module-3",amount=1} }
+  },
+  
+  
+
+ { type = "recipe",
+    name = "alchemy-gold-to-effectivity-module",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 20,
+    ingredients = {{"alchemy-gold",50}},
+    results = {{name="effectivity-module",amount=1} }
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-effectivity-module-2",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 40,
+    ingredients = {{"alchemy-gold",200}},
+    results = {{name="effectivity-module-2",amount=1} }
+  },
+ { type = "recipe",
+    name = "alchemy-gold-to-effectivity-module-3",
+    subgroup = "AlchemyR",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 90,
+    ingredients = {{"alchemy-gold",800}},
+    results = {{name="effectivity-module-3",amount=1} }
+  },
+
+})
